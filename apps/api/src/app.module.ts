@@ -12,7 +12,17 @@ import { AiModule } from './modules/ai/ai.module';
 import { BillingModule } from './modules/billing/billing.module';
 
 @Module({
-  imports: [AuthModule, UsersModule, OrgsModule, ProjectsModule, ConversationsModule, MessagesModule, KnowledgeModule, AiModule, BillingModule],
+  imports: [
+    AuthModule, 
+    UsersModule, 
+    OrgsModule, 
+    ProjectsModule, 
+    ConversationsModule, 
+    MessagesModule, 
+    KnowledgeModule, 
+    AiModule, 
+    BillingModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
