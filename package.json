@@ -1,0 +1,19 @@
+{
+  "name": "ai-support-saas",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "web:dev": "pnpm --filter web dev",
+    "widget:dev": "pnpm --filter widget dev",
+    "api:dev": "pnpm --filter api start:dev"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
